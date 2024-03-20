@@ -18,6 +18,8 @@ var usingMathIRL = 5 + (4 - 3) / 2 * 1
 var currentHealth = 45
 currentHealth *= 5
 
+var stimHealth: Int = 1
+
 // Modulo (%)
 var experienceOverflow = 100 % 90
 

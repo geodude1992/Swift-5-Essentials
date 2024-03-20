@@ -17,5 +17,5 @@ var itemGathered: String? = "Pickaxe"
 var isExchangeable: Bool?
 
 // Forced unwrapping
-print(itemGathered!)
+print(itemGathered!)	// telling the compiler its 100% not nil
 //print(isExchangeable!)

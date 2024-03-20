@@ -22,6 +22,6 @@ let maxLevel = 120
 let maxHealth = 100
 
 currentHealth = 13
-//maxHealth = 110
+// maxHealth = 110 let variables cant be changed
 
 var inventoryItems = 5, equipmentSlots = 3, currentGold = 42

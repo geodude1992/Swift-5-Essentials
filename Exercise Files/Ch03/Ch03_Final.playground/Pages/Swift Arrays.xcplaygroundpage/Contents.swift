@@ -16,6 +16,7 @@
  */
 // Creating arrays
 var levelDifficulty: [String] = ["Easy", "Moderate", "Veteran", "Nightmare"]
+var classes: [String] = ["Knight", "Warrior", "Sorcerer"]
 var extraSyntax1: Array<String> = Array<String>()
 
 // Count and isEmpty
@@ -25,5 +26,6 @@ levelDifficulty.isEmpty
 // Accessing array values
 var mostDifficult = levelDifficulty[3]
 levelDifficulty[3] = "Utter Ridiculousness"
+
 
 

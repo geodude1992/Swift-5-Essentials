@@ -16,10 +16,10 @@ Dictionary elements can be easily updated and removed using subscript syntax or 
 
  */
 // Caching and overwriting items
-var playerStats: [String: Int] = ["HP": 100, "Attack": 35, "Gold": 29]
+var playerStats: [String: Int] = ["HP": 100, "Attack": 35, "Gold": 29, "FP": 25]
 var oldValue = playerStats.updateValue(30, forKey: "Attack")
 
-//playerStats = ["Evasion": 12, "MP": 55]
+playerStats = ["Evasion": 12,]
 
 // Caching and removing items
 //playerStats["Gold"] = nil

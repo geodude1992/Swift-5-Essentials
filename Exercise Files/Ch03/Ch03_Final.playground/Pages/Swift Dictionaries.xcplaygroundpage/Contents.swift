@@ -19,6 +19,8 @@ var blacksmithShop: [String: Int] = ["Bottle": 10, "Shield": 15, "Ocarina": 1000
 
 // Accessing and modifying values
 var shieldPrice = blacksmithShop["Shield"]
+var ocarinaPrice = blacksmithShop["Ocarina"]
+blacksmithShop["Ocarina"] = 1200
 blacksmithShop["Bottle"] = 11
 
 blacksmithShop["Towel"] = 1

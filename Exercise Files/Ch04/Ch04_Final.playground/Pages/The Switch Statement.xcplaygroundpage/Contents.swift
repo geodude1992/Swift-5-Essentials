@@ -34,6 +34,7 @@ case (15, 10):
     print("Great job")
 case (1...15, 20..<25):
     print("Ranges are the best!")
+// value binding
 case (let localMP, let localHP) where localMP + localHP > 20:
     print(localMP, localHP)
 default:

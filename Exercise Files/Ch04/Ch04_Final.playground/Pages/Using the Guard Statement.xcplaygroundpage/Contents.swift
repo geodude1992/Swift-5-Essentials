@@ -23,6 +23,7 @@ let currentGold = 16
 
 // Guard statement with for-in loop
 for (item, price) in shopItems {
+	// like if statement but without if-body
     guard currentGold >= price else {
         print("You can't afford the \(item)")
         continue

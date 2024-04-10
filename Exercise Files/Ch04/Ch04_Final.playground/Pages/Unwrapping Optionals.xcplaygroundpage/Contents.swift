@@ -42,7 +42,7 @@ if let shopOpen = isShopOpen, let searchedItem = blacksmithShop["Shield"] {
 } else {
     print("Sorry, either we're not open or don't have your item...")
 }
-
+// ? used for optional binding, may not exist
 if let fetchGems = questDirectory["Fetch Gemstones"]?["Objective"] {
     print("Active quest object: \(fetchGems)")
 } else {

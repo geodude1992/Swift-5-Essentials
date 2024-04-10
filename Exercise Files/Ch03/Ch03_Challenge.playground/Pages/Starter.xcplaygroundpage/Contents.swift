@@ -15,18 +15,22 @@
  
  */
 // 1
-
+var shopItemsArray: [String] = ["Arrows", "Dungeon Key", "Bombs"]
 // 2
-
+var shopItemsDictionary: [String: Int] = ["Arrows": 10, "Dungeon Key" : 100, "Bombs": 20, "Shield": 100]
 // 3
-
+shopItemsArray.contains("Shield")
+shopItemsArray.insert("Shield", at: 3)
 // 4
-
+var selectedItem = shopItemsArray[3]
 // 5
-
+var selectedItemPrice = shopItemsDictionary[selectedItem]
 // 6
-
+var fullArmorSet: Set = ["Dragon Helmet", "Chainmail Armor", "Stormveil Leggings"]
+var currentArmorSet: Set = ["Stormveil Leggings"]
 // 7
-
+var missingArmor = fullArmorSet.subtracting(currentArmorSet)
 // 8
-
+var armorPieceTuple = (name: "Dragon Helmet", cost: 10, canEqiup: true)
+armorPieceTuple.canEqiup
+armorPieceTuple.cost

@@ -36,7 +36,10 @@ var questBoard = [
     "Defeat Big Boss": [
         "Objective": "Beat the boss",
         "Secret": "Win with 50% health"
-    ]
+    ],
+	"Murlock bones": [
+		"Objective": "Gather 10 Murlock bones",
+		"Secret": "Kill two Murlock within 2 seconds"]
 ]
 
 var gemstoneObjective = questBoard["Fetch Gemstones"]?["Objective"]

@@ -22,10 +22,12 @@ uppercutAttack.0
 uppercutAttack.1
 uppercutAttack.2
 
+// decompose index values
 var (attack, damage, rechargeable) = uppercutAttack
 attack
 damage
 rechargeable
+
 
 // Naming tuple values
 var planetSmash = (name: "Planet Smash", damage: 45, rechargeable: true)
